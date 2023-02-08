@@ -46,7 +46,7 @@ sometimes (everytime) it's better to save all changes you made. there is a littl
 ### commit
 `git commit -m "short capacious description of changes you've made since last commit"` - will save all changes = make a diff from previous commit with description you put after option `-m` which means `message`.
 ### add and track
-`git commit -a -m "commit message"` - will add all files (except untracked files) and make a commit. equals to `git add -u .` followed by `git commit -m "commit message"`
+`git commit -a -m "commit message"` - will add all modified files (ignoring untracked files) and make a commit. equals to `git add -u .` followed by `git commit -m "commit message"`
 
 ## update&sync
 be up to date. work with last version of code from remote. keep remote up to date with changes made localy.
@@ -59,6 +59,10 @@ be up to date. work with last version of code from remote. keep remote up to dat
 apply only specified commits and changes
 
 `git cherry-pick <commit-hash>` - amazing thing
+
+## get info
+* `git status` - will show state of local copy - current branch, last commit, tracked and untracked files with all unstaged changes.
+* `git log` - will show history of changes
 
 ## navigate through versions
 * `git rebase` - will move the HEAD to specified commit.
