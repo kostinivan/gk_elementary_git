@@ -1,4 +1,8 @@
 # git main features overview
+ptaya:
+
+![ptaya](git_image.png "Git")
+
 git is a one of most popular version control systems. it allow you to develop huge projects with others and track all activity and changes. though, you can navigate not only through all text files (source codes), but all changes and it's authors (with blame to punish dumbs more percisely). check this out to get more information:
 - [Github](github.com)
 - [Gitlab](gitlab.com)
