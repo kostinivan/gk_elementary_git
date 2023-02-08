@@ -51,7 +51,9 @@ be up to date. work with last version of code from remote. keep remote up to dat
 * `git pull` - updates your local copy of current branch from remote
 ### update remote
 `git push` - will upload all changes that was added and commited localy to remote origin.
-###
+## berry
+apply only specified commits and changes
+
 `git cherry-pick <commit-hash>` - amazing thing
 
 ## navigate through versions
