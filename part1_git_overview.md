@@ -35,7 +35,7 @@ in every git repository there could be several branches that are easy to switch.
 `git merge <name>` - will merge branch *name* into current branch. 
 *while merging you could face different situations depend on changes you made to every branch*
 
-1) fast-forward.
+1) fast-forward. will be implement automatically if source and current branch have same root-commit and current branch has no new commits.
 ### delete 
 `git branch --delete <name>` - will delete the branch *name*. you better not to delete any branch
 ### list
