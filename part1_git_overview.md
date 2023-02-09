@@ -33,6 +33,9 @@ in every git repository there could be several branches that are easy to switch.
 `git checkout <name>` - will switch to existing branch with name *name*. locally
 ### merge 
 `git merge <name>` - will merge branch *name* into current branch. 
+*while merging you could face different situations depend on changes you made to every branch*
+
+1) fast-forward.
 ### delete 
 `git branch --delete <name>` - will delete the branch *name*. you better not to delete any branch
 ### list
