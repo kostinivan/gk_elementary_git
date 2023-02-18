@@ -38,6 +38,8 @@ branches can be fast-forwarded, automerged, and have conflicts so you have to re
 1) fast-forward. will be implement automatically if source and current branch have same root-commit and current branch has no new commits.
 2) automerge. when there is some commits in both, but no rows is modified in both branches
 so there is no rows that changed in both branches
+3) conflict.
+when automerge is unpossible you have to resoulve all conflicts manually and then commit changes with merge-commit.
 ### delete 
 `git branch --delete <name>` - will delete the branch *name*. you better not to delete any branch
 ### list
