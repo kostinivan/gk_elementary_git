@@ -34,7 +34,7 @@ in every git repository there could be several branches that are easy to switch.
 ### merge 
 `git merge <name>` - will merge branch *name* into current branch. 
 *while merging you could face different situations depend on changes you made to every branch*
-
+branches can be fast-forwarded, automerged, and have conflicts so you have to resolve it manually.
 1) fast-forward. will be implement automatically if source and current branch have same root-commit and current branch has no new commits.
 
 so there is no rows that changed in both branches
