@@ -36,7 +36,7 @@ in every git repository there could be several branches that are easy to switch.
 *while merging you could face different situations depend on changes you made to every branch*
 
 1) fast-forward. will be implement automatically if source and current branch have same root-commit and current branch has no new commits.
-
+2) automerge. when there is some commits in both, but no rows is modified in both branches
 so there is no rows that changed in both branches
 ### delete 
 `git branch --delete <name>` - will delete the branch *name*. you better not to delete any branch
